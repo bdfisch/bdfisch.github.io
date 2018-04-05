@@ -1,0 +1,20 @@
+header {
+    color: #009E00;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+
+h1 {
+  font-size: 54px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+#slogan {
+  font-style: italic;
+  font-size: 28px;
+}
