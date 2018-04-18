@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Vollkorn');
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Vollkorn', serif;
+}
+
+p, ul {
+  font-family: 'Roboto', sans-serif;
+  font-weight: lighter;
+}
+
+header {
+    color: #009E00;
+    background-color: #FFED74;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+nav {
+    background-color: #E8C66A;
+    border: 1px black solid;
+    padding: 20px;
+  }
+
+footer {
+  background-color: #FF957E;
+  border: 1px black solid;
+  padding: 20px;
+}
+
+div, section {
+  background-color: #FFE2B8;
+  border: 1px black solid;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 54px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+#intro {
+  background-image: url(../images/shark.jpg);
+  background-repeat: no-repeat;
+  background-size: auto;
+  height: 250px;
+}
+
+#slogan {
+  font-style: italic;
+  font-size: 28px;
+  word-spacing: 1.1em;
+}
+
+#details img {
+  width: 200px;
+}
+
+#articles img{
+  width: 200px;
+}
