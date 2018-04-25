@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Vollkorn');
+
+.clearfix:after {
+  visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Vollkorn', serif;
+}
+
+p, ul {
+  font-family: 'Roboto', sans-serif;
+  font-weight: lighter;
+}
+
+header {
+    color: #b0f442;
+    background-color: #7b7c7a;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+nav {
+    background-color: #7b7c7a;
+    border: 1px black solid;
+    padding: 20px;
+  }
+
+footer {
+  background-color: #7b7c7a;
+  border: 1px black solid;
+  padding: 20px;
+  text-align:center;
+}
+
+div, section {
+  background-color: #b0f442;
+  border: 1px black solid;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 54px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+#intro {
+  background-image: url(../images/shark.jpg);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center;
+  height: 250px;
+  background-color: white;
+}
+
+#slogan {
+  font-style: italic;
+  font-size: 28px;
+  word-spacing: 1.1em;
+}
+
+#packages {
+}
+
+#details {
+  background-color: #7b7c7a;
+  border: 1px black solid;
+  padding: 20px;
+  text-align: center;
+}
+
+#left {
+  border: 1px black solid;
+  padding: 2%;
+  float: left;
+  width: 29%;
+  height: 15em;
+}
+
+#middle {
+  border: 1px black solid;
+  padding: 2%;
+  float: left;
+  width: 29%;
+  height: 15em;
+}
+
+#right {
+  border: 1px black solid;
+  padding: 2%;
+  float: left;
+  width: 29%;
+  height: 15em;
+}
+
+#details img {
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#articles {
+  border: 1px black solid;
+  padding: 20px;
+  text-align: center;
+}
+
+#MLB {
+  border: 1px black solid;
+  padding: 2.3%;
+  float: left;
+  width: 20%;
+  height: 17em;
+}
+
+#NBA {
+  border: 1px black solid;
+  padding: 2.3%;
+  float: left;
+  width: 20%;
+  height: 17em;
+}
+
+#NHL {
+  border: 1px black solid;
+  padding: 2.3%;
+  float: left;
+  width: 20%;
+  height: 17em;
+}
+
+#PGA {
+  border: 1px black solid;
+  padding: 2.3%;
+  float: left;
+  width: 20%;
+  height: 17em;
+}
+
+#articles img{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#trial {
+  background-color: #7b7c7a;
+  text-align: center;
+  text-transform: capitalize;
+  font-weight: bold;
+}
