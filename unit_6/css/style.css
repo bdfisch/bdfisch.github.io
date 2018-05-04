@@ -9,6 +9,8 @@
     height: 0;
 }
 
+* { margin:0; padding:0; box-sizing:border-box; }
+
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Vollkorn', serif;
 }
@@ -18,133 +20,235 @@ p, ul {
   font-weight: lighter;
 }
 
+body {
+  font-size: 18px;
+  width: 90%;
+  margin: auto;
+  background-color: #7b7c7a;
+}
+
 header {
     color: #b0f442;
     background-color: #7b7c7a;
-    border: 1px black solid;
-    padding: 20px;
+    padding: 1em;
 }
 
 nav {
-    background-color: #7b7c7a;
-    border: 1px black solid;
-    padding: 20px;
+  border-radius: 10px;
+    background-color: #6d6d6c;
+    padding: 1em;
+    width: 100%;
   }
+
+nav a {
+  background-color: none;
+  float: right;
+  padding: 0 2em;
+  text-decoration: none;
+  color: white;
+  font-size: .9em;
+}
+
+nav a:hover {
+  font-weight: bold;
+  color: #b0f442;
+}
+
+nav a:active {
+  text-decoration: underline;
+}
 
 footer {
   background-color: #7b7c7a;
-  border: 1px black solid;
-  padding: 20px;
+  padding: 1em;
   text-align:center;
 }
 
 div, section {
   background-color: #b0f442;
-  border: 1px black solid;
-  padding: 20px;
+  padding: 1em;
 }
 
 h1 {
-  font-size: 54px;
+  font-size: 3em;
   font-weight: 600;
   text-transform: uppercase;
 }
 
+header p {
+  font-size: 3em;
+  text-align: left;
+}
+
+#login {
+  float:right;
+  width: 25%;
+  background-color: inherit;
+  border: none;
+}
+
+#login a {
+  border-radius: 25px;
+  border: 1px solid white;
+  padding: 1em;
+  background-color: #b0f442;
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+
+#login a:hover {
+  border: none;
+  font-weight: bolder;
+  color: #7b7c7a;
+}
+
+#login a:active {
+  text-decoration: underline;
+}
+
 #intro {
-  background-image: url(../images/shark.jpg);
+  background-image: url(../images/shark-2.jpg);
   background-repeat: no-repeat;
   background-size: auto;
   background-position: center;
-  height: 250px;
-  background-color: white;
+  background-color: #7b7c7a;
+  min-height: 30em;
+  color: white;
+  text-align: center;
+}
+
+#intro p{
+  font-size: 2em;
+  padding-bottom: 2em;
 }
 
 #slogan {
-  font-style: italic;
-  font-size: 28px;
-  word-spacing: 1.1em;
+  font-size: 3.5em;
+  padding-top: 1em;
+  padding-bottom: .3em;
+}
+
+#intro a {
+  padding: .75em;
+  background-color: #b0f442;
+  font-size: 1.5em;
+  text-decoration: none;
+  border-radius: 25px;
+  border: 1px solid white;
+  color: white;
+}
+
+#intro a:hover {
+  border: none;
+  font-weight: bolder;
+  color: #7b7c7a;
+}
+
+#intro a:active {
+  text-decoration: underline;
 }
 
 #packages {
+  text-align: center;
+  padding-bottom: 2em;
+}
+
+#packages h2 {
+  text-align: center;
+  padding-bottom: 1em;
+}
+
+#packages h3 {
+  text-align: left;
+  padding-bottom: 1em;
+}
+
+#packages ul {
+  padding-left: 2em;
+  text-align: left;
+  padding-bottom: 1em;
+}
+
+#packages a {
+  padding: 1em;
+  background-color: #7b7c7a;
+  font-size: 1em;
+  text-decoration: none;
+  border-radius: 25px;
+  border: 1px solid white;
+  color: white;
+}
+
+#packages a:hover {
+  border: none;
+  font-weight: bolder;
+  color: #b0f442;
+}
+
+#packages a:active {
+  text-decoration: underline;
 }
 
 #details {
   background-color: #7b7c7a;
-  border: 1px black solid;
-  padding: 20px;
+  padding: 1em;
   text-align: center;
 }
 
-#left {
-  border: 1px black solid;
-  padding: 2%;
+#details div {
+  background-color: inherit;
+  margin: auto;
   float: left;
-  width: 29%;
-  height: 15em;
-}
-
-#middle {
-  border: 1px black solid;
-  padding: 2%;
-  float: left;
-  width: 29%;
-  height: 15em;
-}
-
-#right {
-  border: 1px black solid;
-  padding: 2%;
-  float: left;
-  width: 29%;
-  height: 15em;
+  width: 33%;
+  min-height: 13em;
+  padding-top: 3em;
+  padding-bottom: 2em;
 }
 
 #details img {
-  width: 30%;
+  width: 35%;
   margin-left: auto;
   margin-right: auto;
 }
 
+#details a {
+  background-color: #b0f442;
+  padding: .5em 1.5em;
+  text-decoration: none;
+  color: white;
+  font-size: 1em;
+  border-radius: 25px;
+  border: 1px solid white;
+}
+
+#details a:hover {
+  font-weight: bold;
+  color: #7b7c7a;
+}
+
+#details a:active {
+  text-decoration: underline;
+}
+
+
 #articles {
-  border: 1px black solid;
-  padding: 20px;
   text-align: center;
+  min-height: 13em;
 }
 
-#MLB {
-  border: 1px black solid;
-  padding: 2.3%;
-  float: left;
-  width: 20%;
-  height: 17em;
+#articles h2 {
+  padding-bottom: 2em;
 }
 
-#NBA {
-  border: 1px black solid;
-  padding: 2.3%;
+#articles p {
   float: left;
-  width: 20%;
-  height: 17em;
-}
-
-#NHL {
-  border: 1px black solid;
-  padding: 2.3%;
-  float: left;
-  width: 20%;
-  height: 17em;
-}
-
-#PGA {
-  border: 1px black solid;
-  padding: 2.3%;
-  float: left;
-  width: 20%;
-  height: 17em;
+  width: 25%;
 }
 
 #articles img{
-  width: 80%;
+  width: 75%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -154,4 +258,28 @@ h1 {
   text-align: center;
   text-transform: capitalize;
   font-weight: bold;
+  font-size: 1.25em;
+}
+
+#trial h2 {
+  padding-bottom: 1em;
+}
+
+#trial a {
+  background-color: #b0f442;
+  padding: .5em 2em;
+  text-decoration: none;
+  color: white;
+  font-size: 1em;
+  border-radius: 25px;
+  border: 1px solid white;
+}
+
+#trial a:hover {
+  font-weight: bold;
+  color: #7b7c7a;
+}
+
+#trial a:active {
+  text-decoration: underline;
 }
