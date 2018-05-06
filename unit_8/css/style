@@ -1,0 +1,7 @@
+body {
+  background-image: url("http://www.sharkbusiness.org/why-shark-business/");
+}
+h1 {
+    text-align: center;
+    color: red;
+}
